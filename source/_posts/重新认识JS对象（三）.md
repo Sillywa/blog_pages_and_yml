@@ -6,10 +6,14 @@ tags:
 categories:
 - JavaScript 基础
 ---
+
+原型及原型链是Javascript里面很重要的概念,本文深入探讨了两者的关系及区别.
+<!-- more -->
+
 ## 一、原型检测
+
 javascript中提供`Object.getPrototypeOf()`方法来获得对象的直接原型。
 
-<!-- more -->
 
 ```js
 function Person() {

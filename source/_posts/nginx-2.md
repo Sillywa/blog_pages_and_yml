@@ -8,7 +8,6 @@ categories:
 - Linux
 ---
 
-<!-- more -->
 
 ### 网站配置简单说明
 
@@ -21,6 +20,8 @@ categories:
 {%  asset_img 1.png %}
 
 我们可以看到 `root` 后面的路径就是我们网站存放的位置，因此你可以根据实际情况自己修改，我的网站是放在 `/var/www/sillywa.blog` 目录下，`Nginx` 会自动寻找该目录下的 `index.html` 文件。
+
+<!-- more -->
 
 其中 `server_name` 后面可以放我们的域名，多个域名用空格隔开
 
